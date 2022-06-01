@@ -1,0 +1,27 @@
+.box{
+    width: 50%;
+    border:1px solid rgba(138, 138, 138, 0.308);
+    margin: 100px auto;
+    border-radius: 10px;
+}   
+.box .block .itemBlock{
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.itemBlock .item{
+    width: 100%;
+    margin: 20px 0;
+    padding: 15px 20px 0 20px;
+    background: #b3a6a640;
+    border-radius: 10px;
+}
+.itemBlock .item .header{
+    display: flex;
+    justify-content: space-between;
+}
